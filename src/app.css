@@ -1,0 +1,10 @@
+@import '@splidejs/svelte-splide/css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.splide__pagination__page,.splide__arrow {
+    @apply bg-white;
+}
