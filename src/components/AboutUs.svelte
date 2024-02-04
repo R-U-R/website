@@ -1,4 +1,4 @@
-<div class="w-full bg-base-200 py-8">
+<div class="w-full bg-base-200 py-8" id="aboutus">
 	<div class="container mx-auto flex lg:flex-row flex-col gap-8 px-2">
 		<div class="lg:basis-7/12">
 			<h3 class="text-4xl font-bold mb-4">O nama</h3>

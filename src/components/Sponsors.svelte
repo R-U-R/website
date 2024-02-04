@@ -1,4 +1,4 @@
-<div class="w-full bg-base-200 py-8">
+<div class="w-full bg-base-200 py-8" id="sponsors">
     <div class="mx-auto container">
         <h3 class="text-4xl font-bold text-center">Partneri</h3>
         <div class="flex gap-4 justify-center m-4 flex-wrap">

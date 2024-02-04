@@ -2,7 +2,7 @@
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 </script>
 
-<div class="bg-base-100 w-full py-8">
+<div class="bg-base-100 w-full py-8" id="team">
 	<h3 class="text-4xl font-bold text-center">Tim</h3>
 
 	<Splide

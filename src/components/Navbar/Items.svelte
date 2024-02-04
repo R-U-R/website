@@ -1,15 +1,15 @@
 <li>
-	<a href="#onama">O nama</a>
+	<a href="#aboutus">O nama</a>
 </li>
 <li>
-	<a href="#tim">Tim</a>
+	<a href="#team">Tim</a>
 </li>
 <li>
-	<a href="#partneri">Partneri</a>
+	<a href="#sponsors">Partneri</a>
 </li>
+<!-- <li>
+	<a href="#gallery">Galerija</a>
+</li> -->
 <li>
-	<a href="#galerija">Galerija</a>
-</li>
-<li>
-	<a href="#galerija">Kontakt</a>
+	<a href="#contact">Kontakt</a>
 </li>

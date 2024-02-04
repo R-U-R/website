@@ -2,7 +2,7 @@
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 </script>
 
-<div class="w-full py-8 bg-base-100">
+<div class="w-full py-8 bg-base-100" id="gallery">
 	<div class="mx-auto container">
 		<h1 class="text-4xl text-center font-bold">Galerija</h1>
 
