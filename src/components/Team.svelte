@@ -1,5 +1,13 @@
-<script>
+<script lang="ts">
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
+
+	let members = [
+		["Aleksa Ognjanović", "je naš softverski guru, sa izvanrednim veštinama u programiranju i matematici, ključan za robota koji razmišlja brzo."],
+		["Marko Mihajlović", "kombinuje fiziku i mehatroniku, oblikujući mehaničko srce našeg robota sa preciznošću."],
+		["Mihailo Pešić", "je vezni član, spajajući fiziku i programiranje s veštinama u komunikaciji, držeći tim u sinergiji."],
+		["Aleksa Bolić", "donosi kreativne iskre u programiranju i fizici, osmišljavajući inovacije koje vode tim napred."],
+		["Vukašin Rondović", "je majstor modelovanja, pretvarajući ideje u konkretne, funkcionalne delove robota."],
+	];
 </script>
 
 <div class="bg-base-100 w-full py-8" id="team">
@@ -36,7 +44,7 @@
 			}
 		}}
 	>
-		{#each { length: 15 } as _, i}
+		{#each members as member }
 			<SplideSlide>
 				<div class="card shadow-lg m-4">
 					<figure>
@@ -47,13 +55,8 @@
 						/>
 					</figure>
 					<div class="card-body">
-						<p class="card-title self-center">Ime Prezime</p>
-						<p>
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis totam asperiores
-							nesciunt, doloribus ipsa ipsam assumenda laudantium libero nemo expedita culpa
-							necessitatibus eveniet consequuntur unde repudiandae itaque voluptate possimus.
-							Commodi?
-						</p>
+						<p class="card-title self-center">{member[0]}</p>
+						<p>{member[1]}</p>
 					</div>
 				</div>
 			</SplideSlide>
