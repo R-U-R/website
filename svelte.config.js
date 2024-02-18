@@ -20,7 +20,8 @@ const config = {
 			strict: true
 		}),
 		alias: {
-			$components: path.resolve('./src/components')
+			$components: path.resolve('./src/components'),
+			$images: path.resolve('./src/images')
 		}
 	}
 };
