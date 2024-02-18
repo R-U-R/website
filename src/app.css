@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+}
+
 
 .splide__pagination__page,.splide__arrow {
     @apply bg-white;

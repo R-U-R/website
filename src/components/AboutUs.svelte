@@ -1,7 +1,7 @@
 <div class="w-full bg-base-200 py-8" id="aboutus">
 	<div class="container mx-auto flex lg:flex-row flex-col gap-8 px-2">
 		<div class="lg:basis-7/12">
-			<h3 class="text-4xl font-bold mb-4">O nama</h3>
+			<h3 class="text-4xl font-bold mb-4 text-center lg:text-left">O nama</h3>
 			<p class="text-lg">
 				Upoznajte R.U.R., tim od pet studenata i srednjoškolaca posvećenih izradi autonomnog robota
 				za Eurobot 2024. Naš cilj? Da se izborimo na međunarodnom takmičenju sa robotom koji bez
