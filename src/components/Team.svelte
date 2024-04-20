@@ -5,7 +5,6 @@
 	import bolic from '$images/bolic.jpg';
 	import rondovic from '$images/rondovic.jpg';
 	import ognjanovic from '$images/ognjanovic.jpg';
-	import jovanovic from '$images/jovanovic.jpg';
 
 	let members = [
 		[
@@ -33,7 +32,6 @@
 			'je naš softverski guru, sa izvanrednim veštinama u programiranju i matematici, ključan za robota koji razmišlja brzo.',
 			ognjanovic
 		],
-		['Kosta Jovanović', '', jovanovic]
 	];
 </script>
 
