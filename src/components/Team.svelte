@@ -1,10 +1,9 @@
 <script lang="ts">
-	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
-	import mihajlovic from '$images/mihajlovic.jpg';
-	import pesic from '$images/pesic.jpg';
-	import bolic from '$images/bolic.jpg';
-	import rondovic from '$images/rondovic.jpg';
-	import ognjanovic from '$images/ognjanovic.jpg';
+	import mihajlovic from '$images/mihajlovic.jpg?enhanced';
+	import pesic from '$images/pesic.jpg?enhanced';
+	import bolic from '$images/bolic.jpg?enhanced';
+	import rondovic from '$images/rondovic.jpg?enhanced';
+	import ognjanovic from '$images/ognjanovic.jpg?enhanced';
 
 	let members = [
 		[
@@ -39,12 +38,12 @@
 	<div class="container mx-auto px-2">
 		<h3 class="text-4xl font-bold text-center">Tim</h3>
 		<div
-			class="lg:grid justify-center grid-cols-[repeat(auto-fit,minmax(min-content,450px))] flex flex-col"
+			class="md:grid justify-center grid-cols-[repeat(auto-fit,minmax(min-content,300px))] flex flex-col"
 		>
 			{#each members as member}
 				<div class="card shadow-lg m-4">
 					<figure>
-						<img
+						<enhanced:img
 							src={member[2]}
 							class="aspect-square object-cover object-top"
 							alt="{member[0]} slika"
